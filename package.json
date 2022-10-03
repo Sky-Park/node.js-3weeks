@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.6.3"
+  },
+  "name": "3weeks",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sky-Park/node.js-3weeks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sky-Park/node.js-3weeks/issues"
+  },
+  "homepage": "https://github.com/Sky-Park/node.js-3weeks#readme",
+  "description": ""
+}
