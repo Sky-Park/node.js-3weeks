@@ -15,7 +15,7 @@ router.post("/", async (req, res) => {
 
 //2. 게시글 전체 조회 
 router.get("/", async (req, res) => {
-    const postlist = await posts.find();
+    const postlist = await posts.find().sort({createdAt: -1});
 
     const post = postlist.map((post) => {
         return {
